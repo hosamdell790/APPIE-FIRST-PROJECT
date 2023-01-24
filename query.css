@@ -1,0 +1,346 @@
+@media (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+  /* section-nav-header */
+  /* section-nav-header */
+  /* section-nav-header */
+  .header {
+    padding: 3rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    border-style: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .links {
+    display: block;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .links {
+    position: relative;
+  }
+  .header .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    right: -1rem;
+    min-width: 90px;
+    top: calc(100% + 20px);
+    display: none;
+    z-index: 1;
+  }
+  .header .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    right: 3px;
+    top: -23px;
+  }
+  .header .links:hover ul {
+    display: block;
+  }
+  .header .links ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #0e1133;
+    opacity: 0.9;
+  }
+  .header .links ul li a:hover {
+    padding-left: 25px;
+  }
+  .header .links ul li:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* .section-hero */
+  /* .section-hero */
+  /* .section-hero */
+  /* .section-hero */
+
+  .section-hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 50%;
+    height: 50%;
+    float: right;
+  }
+  /* section-how */
+  /* section-how */
+  /* section-how */
+  .features-box {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: 10rem 0;
+    text-align: center;
+  }
+  .head-how {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* section-marketing */
+  /* section-marketing */
+  /* section-marketing */
+  .marketing-box {
+    display: flex;
+  }
+  .thumb-img {
+    width: 0;
+    height: 0;
+    background-image: none;
+    margin-left: 0;
+  }
+  .marketing-text {
+    padding: 2rem;
+    align-items: center;
+  }
+  .subheading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .title-market {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  /* section wherever */
+  /* section wherever */
+  .wherever {
+    padding: 0 4rem;
+  }
+  .ever-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .para-wherever {
+    font-size: 1.2rem;
+  }
+  .text-ever {
+    margin-top: 5rem;
+  }
+  .img-ever img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+    width: 100%;
+  }
+  /* section-how-icon */
+  /* section-how-icon */
+  .section-how-icon {
+    padding: 4rem;
+    margin-bottom: 3rem;
+  }
+  .how-head-box h2 {
+    font-size: 3rem;
+  }
+  .how-head-box p {
+    font-size: 1.2rem;
+  }
+  .active-install {
+    display: flex;
+    flex-direction: column;
+  }
+  .tablet-iphone-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-play-img::before {
+    content: url(play-image.png);
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 38%;
+  }
+  .video-play-img i {
+    position: absolute;
+    font-size: 1.3rem;
+    top: 10%;
+    left: 55%;
+    color: #fff;
+    background-color: #32c351;
+    border-radius: 50%;
+  }
+  .tablet-image {
+    width: 100%;
+    height: 200%;
+  }
+  .phone-image {
+    width: 100%;
+  }
+  .tablet-description {
+    margin: 2.5rem 0 0 0;
+  }
+  .tablet-title {
+    font-size: 1.8rem;
+  }
+  .tablet-text {
+    line-height: 1.8rem;
+  }
+  .tablet-btn {
+    margin: 2.5rem 0;
+    width: 27%;
+    font-size: 1.2rem;
+  }
+  .to-arrow {
+    display: none;
+  }
+  /* section-download */
+  /* section-download */
+  /* section-download */
+  .download {
+    padding: 9rem 4rem;
+  }
+  .download h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem 15rem 2rem 0;
+    line-height: 1.2;
+  }
+  .icon-apple {
+    font-size: 0.8rem;
+    gap: 0.8rem;
+    border-radius: 9px;
+    padding: 1rem 2rem;
+  }
+  .icon-android {
+    font-size: 0.8rem;
+    gap: 0.8rem;
+    border-radius: 9px;
+    padding: 1rem 2rem 1rem 1rem;
+    border: 1px solid #0e1133;
+  }
+  .icon-apple strong {
+    font-size: 1.5rem;
+  }
+  .icon-android strong {
+    font-size: 1.5rem;
+  }
+  .icon-android p {
+    font-size: 1rem;
+  }
+  .icon-apple p {
+    font-size: 1rem;
+  }
+
+  /* section-pricing */
+  /* section-pricing */
+  .pricing h2 {
+    font-size: 2.7rem;
+    font-weight: bolder;
+  }
+  .subscription {
+    width: 30%;
+  }
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .pricing-plan-sweet {
+    box-shadow: 0px 15px 13px -8px rgba(0, 0, 0, 0.1);
+  }
+  /* section-review */
+  /* section-review */
+  .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .review div img {
+    margin-right: 3rem;
+  }
+  .img-title {
+    margin-right: 3rem;
+  }
+  .review .discription {
+    font-size: 0.9rem;
+  }
+  .name-deck {
+    margin-left: 9rem;
+  }
+  .footer-review .web {
+    margin-left: 9rem;
+    padding-bottom: 3rem;
+  }
+  .arrow-footer {
+    display: none;
+  }
+
+  /* section sponsers */
+  /* section sponsers */
+  /* section sponsers */
+  /* section sponsers */
+  #sec-sponsers h2 {
+    line-height: 1.2;
+    font-size: 3rem;
+  }
+  #sec-sponsers div img {
+    box-shadow: 0px 23px 23px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .sponsers-one {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap: 3rem;
+    margin: 0 5rem 3rem;
+  }
+  .sponsers-two {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap: 3rem;
+    margin: 0 5rem 9rem;
+  }
+  .sponsers-two :last-child {
+    grid-column: 2;
+  }
+  /* section-footer */
+  /* section-footer */
+  /* section-footer */
+  .big-footer {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    text-align: center;
+    gap: 3.2rem;
+  }
+  .social-links {
+    justify-content: center;
+  }
+  .address-col {
+    justify-self: center;
+  }
+  .small-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .icon-apple-android {
+    margin-bottom: 2rem;
+  }
+  .fa-arrow-up {
+    margin-right: 5rem;
+  }
+}
